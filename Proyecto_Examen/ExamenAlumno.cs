@@ -13,6 +13,7 @@ namespace Proyecto_Examen
         public int CodigoExamen { get; set; }
         public int NotaAlumno { get; set; }
         public string CodigoPersona { get; set; }
+        //Hola a todos
 
         public ExamenAlumno BuscarExamenAlumno(int aiCodigoalumno)
         {
