@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Proyecto_Examen.Examen" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAEAAEIAAAAAAAAACAAAAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Examen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Proyecto_Examen.ExamenAlumno" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAACAAAAAAAAAAAAAYAAAAgAAAQg=</HashCode>
+      <FileName>ExamenAlumno.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Proyecto_Examen.MultiopcionPregunta" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAgAAAAAAAAAAAAAAggCAAAAACgAAAAAAAAAAAA=</HashCode>
+      <FileName>MultiopcionPregunta.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Proyecto_Examen.PreguntaExamen" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEgAAAAAAgAAAACAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PreguntaExamen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Proyecto_Examen.RespuestaExamenAlumno" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAEAAgAAAAAAAAIAAAAAAAIAAAAAAACAA=</HashCode>
+      <FileName>RespuestaExamenAlumno.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
