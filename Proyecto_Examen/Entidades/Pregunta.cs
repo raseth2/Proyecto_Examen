@@ -13,5 +13,7 @@ namespace Proyecto_Examen.Entidades
         public virtual ICollection<OpcionPregunta> Opciones { get; set; }
         public int IDUsuario { get; set; }
         public virtual Usuario Propietario { get; set; }
+
+        //metodos
     }
 }
