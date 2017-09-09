@@ -15,7 +15,7 @@
         <Point X="4.865" Y="6.725" />
         <Point X="4.865" Y="5.484" />
         <Point X="4.75" Y="5.484" />
-        <Point X="4.75" Y="5.325" />
+        <Point X="4.75" Y="5.709" />
       </Path>
     </AssociationLine>
     <TypeIdentifier>
@@ -37,7 +37,7 @@
         <Point X="3.615" Y="9.686" />
         <Point X="3.615" Y="6.379" />
         <Point X="3.75" Y="6.379" />
-        <Point X="3.75" Y="5.325" />
+        <Point X="3.75" Y="5.709" />
       </Path>
     </AssociationLine>
     <AssociationLine Name="Respuestas" Type="Proyecto_Examen.Entidades.RespuestaExamenAlumno" FixedFromPoint="true" FixedToPoint="true">
@@ -103,7 +103,7 @@
   <Class Name="Proyecto_Examen.Entidades.Usuario">
     <Position X="3.25" Y="3" Width="1.75" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAQAAAAAAAAAAAAwBAAAAAAAAAMAAgAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAQAAIAAAAAAAAAwBAAAAAAAAAMAAgAAIAAA=</HashCode>
       <FileName>Entidades\Usuario.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>

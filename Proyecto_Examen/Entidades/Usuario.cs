@@ -28,5 +28,28 @@ namespace Proyecto_Examen.Entidades
             };
         }
 
+        public static Usuario EliminarUsuario(int idUsuario)
+        {
+            return new Usuario()
+            {
+                IDUsuario = idUsuario
+            };
+        }
+
+     
+
+        public static Usuario ModificarUsuario(int idUsuario, string codigoUsuario, string nombreUsuario, string claveUsuario, byte codigoTipoUsuario)
+        {
+            return new Usuario()
+            {
+                IDUsuario = idUsuario,
+                CodigoUsuario = codigoUsuario,
+                NombreUsuario = nombreUsuario,
+                ClaveUsuario = claveUsuario,
+                CodigoTipoUsuario = codigoTipoUsuario,
+
+            };
+        }
+
     }
 }
