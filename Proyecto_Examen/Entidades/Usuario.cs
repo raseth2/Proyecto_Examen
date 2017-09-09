@@ -15,5 +15,18 @@ namespace Proyecto_Examen.Entidades
         //public string ApellidoMaterno { set; get; }
         //public int telefono { set; get; }
 
+        public static Usuario CrearNuevoUsuario(int idUsuario, string codigoUsuario, string nombreUsuario, string claveUsuario, byte codigoTipoUsuario)
+        {
+            return new Usuario()
+            {
+                IDUsuario = idUsuario,
+                CodigoUsuario = codigoUsuario,
+                NombreUsuario = nombreUsuario,
+                ClaveUsuario = claveUsuario,
+                CodigoTipoUsuario = codigoTipoUsuario,
+
+            };
+        }
+
     }
 }
