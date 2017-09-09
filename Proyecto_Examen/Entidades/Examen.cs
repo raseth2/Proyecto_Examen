@@ -14,6 +14,6 @@ namespace Proyecto_Examen.Entidades
         public byte EstadoExamen { get; set; }
         public int IDUsuario { get; set; }
         public virtual Usuario Propietario { get; set; }
-        public ICollection<Pregunta> Preguntas { get; set; }
+        public ICollection<ExamenDetalle> Preguntas { get; set; }
     }
 }

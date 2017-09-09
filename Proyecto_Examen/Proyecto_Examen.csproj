@@ -41,9 +41,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Balotario.cs" />
+    <Compile Include="Entidades\ExamenDetalle.cs" />
     <Compile Include="Entidades\TipoUsuario.cs" />
     <Compile Include="Entidades\Examen.cs" />
-    <Compile Include="Entidades\ExamenAlumno.cs" />
+    <Compile Include="Entidades\ResolucionExamen.cs" />
     <Compile Include="Entidades\OpcionPregunta.cs" />
     <Compile Include="Entidades\Usuario.cs" />
     <Compile Include="Entidades\Pregunta.cs" />

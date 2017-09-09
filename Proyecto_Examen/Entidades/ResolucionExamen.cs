@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Proyecto_Examen.Entidades
 {
-    public class ExamenUsuario
+    public class ResolucionExamen
     {
         public int NumeroSecuenciaExamenUsuario { get; private set; }
         public int IdentificadorExamen { get; set; }
