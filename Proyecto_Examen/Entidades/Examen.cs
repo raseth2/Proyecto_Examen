@@ -15,5 +15,6 @@ namespace Proyecto_Examen.Entidades
         public int IDUsuario { get; set; }
         public virtual Usuario Propietario { get; set; }
         public ICollection<ExamenDetalle> Preguntas { get; set; }
+        //hola mundo
     }
 }
