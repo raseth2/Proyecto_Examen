@@ -13,7 +13,7 @@ namespace Proyecto_Examen.Entidades
         public virtual Examen Examen { get; set; }
         public int IdentificadorPregunta { get; set; }
         public virtual Pregunta Pregunta { get; set; }
-        //hola 
+        //hola que fue de elisban
 
     }
 }
