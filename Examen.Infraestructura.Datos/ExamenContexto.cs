@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Examen.Infraestructura.Datos
+    //hola hola
 {
     public class ExamenContexto : DbContext
     {
