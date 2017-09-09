@@ -15,6 +15,24 @@ namespace Proyecto_Examen.Entidades
         public int IDUsuario { get; set; }
         public virtual Usuario Propietario { get; set; }
         public ICollection<ExamenDetalle> Preguntas { get; set; }
-        //jeosssss
+      
+
+        public static Examen CrearExamen(int ainIndentificadorExamen, int ainNombreExamen)
+        {
+            return new Examen()
+            {
+                IdentificadorExamen = ainIndentificadorExamen,
+                NombreExamen = ainNombreExamen,
+                
+            };
+        }
+        public static Examen EliminarExamen(int ainIndentificadorExamen)
+        {
+            return new Examen()
+            {
+                IdentificadorPregunta = ainIndentificadorExamen
+            };
+        }
+        
     }
 }
