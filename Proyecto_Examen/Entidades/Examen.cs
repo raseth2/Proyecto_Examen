@@ -17,7 +17,7 @@ namespace Proyecto_Examen.Entidades
         public ICollection<ExamenDetalle> Preguntas { get; set; }
       
 
-        public static Examen CrearExamen(int ainIndentificadorExamen, int ainNombreExamen)
+        public static Examen CrearExamen(int ainIndentificadorExamen, string ainNombreExamen)
         {
             return new Examen()
             {
@@ -30,9 +30,24 @@ namespace Proyecto_Examen.Entidades
         {
             return new Examen()
             {
-                IdentificadorPregunta = ainIndentificadorExamen
+                IdentificadorExamen = ainIndentificadorExamen
             };
         }
-        
+        public static Examen ModificarExamen(int idExamen, string nombreExamen, DateTime fechaCreacion, string indicaciones, DateTime fechaInicioExamen, DateTime fechaFinalExamen, byte estadoExamen, int idUsuario)
+        {
+            return new Examen()
+            {
+                IdentificadorExamen=idExamen,
+                NombreExamen=nombreExamen,
+                FechaCreacion=fechaCreacion,
+                Indicaciones=indicaciones,
+                FechaInicioExamen=fechaInicioExamen,
+                FechaFinalExamen=fechaFinalExamen,
+                EstadoExamen=estadoExamen,
+                IDUsuario = idUsuario
+                       
+            };
+        }
+
     }
 }

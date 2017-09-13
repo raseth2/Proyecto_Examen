@@ -16,5 +16,32 @@ namespace Proyecto_Examen.Entidades
 
         //metodos454
         ///546454
+        ///
+        public static Pregunta CrearPregunta(int idPregunta,string detallePregunta,int idUsuario)
+        {
+            return new Pregunta()
+            {
+                IdentificadorPregunta = idPregunta,
+                DestallePregunta=detallePregunta,
+                IDUsuario=idUsuario
+            };
+        }
+        public static Pregunta ModificarPregunta(int idPregunta, string detallePregunta, int idUsuario)
+        {
+            return new Pregunta()
+            {
+                IdentificadorPregunta = idPregunta,
+                DestallePregunta = detallePregunta,
+                IDUsuario = idUsuario
+            };
+        }
+        public static Pregunta EliminarPregunta(int idPregunta)
+        {
+            return new Pregunta()
+            {
+                IdentificadorPregunta = idPregunta
+            };
+        }
+
     }
 }
