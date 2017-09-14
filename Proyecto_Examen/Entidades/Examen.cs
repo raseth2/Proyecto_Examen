@@ -33,13 +33,13 @@ namespace Proyecto_Examen.Entidades
                 IdentificadorExamen = ainIndentificadorExamen
             };
         }
-        public static Examen ModificarExamen(int idExamen, string nombreExamen, DateTime fechaCreacion, string indicaciones, DateTime fechaInicioExamen, DateTime fechaFinalExamen, byte estadoExamen, int idUsuario)
+        public static Examen ModificarExamen(int idExamen, string nombreExamen,  string indicaciones, DateTime fechaInicioExamen, DateTime fechaFinalExamen, byte estadoExamen, int idUsuario)
         {
             return new Examen()
             {
                 IdentificadorExamen=idExamen,
                 NombreExamen=nombreExamen,
-                FechaCreacion=fechaCreacion,
+                FechaCreacion=DateTime.Now,
                 Indicaciones=indicaciones,
                 FechaInicioExamen=fechaInicioExamen,
                 FechaFinalExamen=fechaFinalExamen,
