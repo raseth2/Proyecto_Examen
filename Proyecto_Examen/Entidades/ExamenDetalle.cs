@@ -15,5 +15,30 @@ namespace Proyecto_Examen.Entidades
         public virtual Pregunta Pregunta { get; set; }
         //hola que fue de elisban
 
+        public static ExamenDetalle CrearExamenDetalle(int secuenciaExamenDetalle, int identificadorExamen, int identificadorPregunta)
+        {
+            return new ExamenDetalle()
+            {
+                SecuenciaExamenDetalle = secuenciaExamenDetalle,
+                IdentificadorExamen = identificadorExamen,
+                IdentificadorPregunta = identificadorPregunta
+            };
+        }
+        public static ExamenDetalle EliminarExamenDetalle(int identificadorExamen)
+        {
+            return new ExamenDetalle()
+            {
+                IdentificadorExamen = identificadorExamen
+            };
+        }
+        public static ExamenDetalle ModificarExamenDetalle(int secuenciaExamenDetalle, int identificadorExamen, int identificadorPregunta)
+        {
+            return new ExamenDetalle()
+            {
+                SecuenciaExamenDetalle = secuenciaExamenDetalle,
+                IdentificadorPregunta = identificadorPregunta
+            };
+        }
+
     }
 }
