@@ -9,8 +9,9 @@ namespace Examen.Infraestructura.Datos.Mapeos
         {
             ToTable("Tipo_Usuario");
             HasKey(k => k.CodigoTipoUsuario);
-            Property(p => p.CodigoTipoUsuario).IsRequired();
-            Property(p => p.DescripcionTipoUsuario).IsRequired().HasMaxLength(50);
+            Property(p => p.CodigoTipoUsuario).HasColumnName("Codigo_tipo_usuario").IsRequired();
+            Property(p => p.DescripcionTipoUsuario).HasColumnName("Descripcion_tipo_usuario").IsRequired().HasMaxLength(50);
+
         }
     }
 }

@@ -48,7 +48,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ExamenContexto.cs" />
+    <Compile Include="Mapeos\ExamenDetalleMapeo.cs" />
+    <Compile Include="Mapeos\ExamenMapeo.cs" />
+    <Compile Include="Mapeos\OpcionPreguntaMapeo.cs" />
+    <Compile Include="Mapeos\PreguntaMapeo.cs" />
+    <Compile Include="Mapeos\ResolucionExamenMapeo.cs" />
+    <Compile Include="Mapeos\RespuestaExamenAlumnoMapeo.cs" />
     <Compile Include="Mapeos\TipoUsuarioMapeo.cs" />
+    <Compile Include="Mapeos\UsuarioMapero.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
